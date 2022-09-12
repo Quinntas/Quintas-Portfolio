@@ -20,7 +20,7 @@ export const date = async (args: string[]): Promise<string> => {
 };
 
 export const gui = async (args: string[]): Promise<string> => {
-  window.open('https://github.com/Quinntas', '_self');
+  window.open('https://quintas-gui.vercel.app/', '_self');
 
   return 'Opening GUI version...';
 };
