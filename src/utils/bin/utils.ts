@@ -63,6 +63,22 @@ export const repo = async (args?: string[]): Promise<string> => {
   return 'Opening repository...';
 };
 
+export const spotify = async (args?: string[]): Promise<string> => {
+  setTimeout(function () {
+    window.open('https://open.spotify.com/user/joaodasquebradasmalakoi', '_blank');
+  }, 1000);
+
+  return 'Opening Spotify...';
+};
+
+export const armory = async (args?: string[]): Promise<string> => {
+  setTimeout(function () {
+    window.open('https://worldofwarcraft.com/pt-br/character/us/azralon/quinntas', '_blank');
+  }, 1000);
+
+  return 'Opening armory...';
+};
+
 export const donate = async (args?: string[]): Promise<string> => {
   window.open(packageJson.funding.url, '_blank');
 
